@@ -53,3 +53,31 @@
   content: "\f05e";
   text-shadow: 0 -1px #ff4949;
 }
+.tip.home {
+  background: #15e5ff;
+  background: -webkit-gradient(
+  linear,
+  left top,
+  right top,
+  from(#5bc6d4)
+  to(#0ec0ef)
+  );
+  backgroune: -webkit-linear-gradient(left,#0ec0ef,#80e0f9);
+  background: linear-gradient(90deg,#0ec0ef,#80e0f7);
+  text-shadow: 0 -1px #0ec0ef;
+  -webkit-box-shadow: 0 3px 5px #01caff;
+  box-shadow: 0 3px 5px #01caff;
+}
+.tip.home:before {
+  background: -webkit-gradient(
+  linear,
+    left bottom,
+    left top,
+    form(#0ec0ee)
+    to(#0ee0cc)
+    );
+  background: -webkit-linear-gradient(bottom, #0ec0ee, #0ec2ee);
+  background: linear-gradient(0deg, #0ec0ee, #0ec0ea);
+  content: "\f015";
+  text-shadow: 0 -1px #0ec0ea;  
+}
