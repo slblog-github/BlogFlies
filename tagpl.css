@@ -81,3 +81,32 @@
   content: "\f015";
   text-shadow: 0 -1px #0ec0ea;  
 }
+.tip.important {
+  background: #ff4949;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff4949),
+    to(#ff3443)
+  );
+  background: -webkit-linear-gradient(left, #ff4949, #ff1022);
+  background: linear-gradient(90deg, #ff4949, #f03b49);
+  text-shadow: 0 -1px #ff4949;
+  -webkit-box-shadow: 0 3px 5px rgba(255, 73, 73, 0.5);
+  box-shadow: 0 3px 5px rgba(255, 73, 73, 0.5);
+}
+
+.tip.important:before {
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#ff3838),
+    to(#ce4617)
+  );
+  background: -webkit-linear-gradient(bottom, #ff3838, #d23e49);
+  background: linear-gradient(0deg, #ff3838, #ff1022);
+  content: "\f129";
+  text-shadow: 0 -1px #ff4949;
+}
