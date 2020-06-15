@@ -197,3 +197,32 @@
   content: "\f084";
   text-shadow: 0 -1px #a9b2b9;
 }
+.tip.socd {
+  background: #25c33b;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#51a7bd33),
+    to(#8379ff)
+  );
+  background: -webkit-linear-gradient(left, #648798, #90a4ae);
+  background: linear-gradient(230deg, #ffaa0d, #deb455);
+  text-shadow: 0 -1px #c1c0d4;
+  -webkit-box-shadow: 0 3px 5px #d3d2de;
+  box-shadow: 1 3px 5px #d5d4de;
+}
+
+.tip.socd:before {
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#dddce8),
+    to(#b1abf5)
+  );
+  background: -webkit-linear-gradient(bottom, #5246e2, #5246e2);
+  background: linear-gradient(560deg, #f9ae07, #ffb615);
+  content: "\f0f3";
+  text-shadow: 0 -1px #ffb81b;
+}
